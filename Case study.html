@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Case study documenting the visual design and development of Rinsha Fathima's portfolio.">
+  <title>Portfolio Case Study | Rinsha Fathima</title>
+  <link rel="stylesheet" href="case-study.css">
+</head>
+<body>
+  <header class="navbar">
+    <a class="logo" href="#top">R<span>ft</span></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#overview">Overview</a><a href="#design">Design</a><a href="#colors">Colors</a>
+      <a href="#process">Process</a><a href="#stack">Tech stack</a>
+    </nav>
+    <a class="talk-btn" href="index.html">View Portfolio <span>↗</span></a>
+    <button class="menu-btn" id="menuBtn" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> DESIGN CASE STUDY · 2026</div>
+        <p class="role">UI/UX DESIGN · FRONTEND DEVELOPMENT</p>
+        <h1>Designing a<br><strong>digital identity.</strong></h1>
+        <p class="intro">A breakdown of the visual direction, colour system, interface structure and front-end techniques behind Rinsha Fathima’s portfolio website.</p>
+        <div class="hero-actions"><a class="primary-btn" href="#overview">Explore case study ↘</a><a class="outline-btn" href="#colors">View colour palette</a></div>
+        <div class="meta-row"><div><small>PROJECT TYPE</small><b>Personal portfolio</b></div><div><small>DISCIPLINE</small><b>UI/UX + Frontend</b></div><div><small>VISUAL STYLE</small><b>Dark · Minimal · Glass</b></div></div>
+      </div>
+      <div class="hero-art" aria-label="Abstract blue glass visual">
+        <div class="grid-floor"></div><div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="glass-shape"><i></i><b></b><span></span></div>
+        <div class="float-card card-design"><small>DESIGN SYSTEM</small><strong>Visual clarity</strong><em></em></div>
+        <div class="float-card card-code"><small>DEVELOPMENT</small><strong>HTML · CSS · JS</strong></div>
+        <p class="art-caption">DESIGN · DETAIL · EXPERIENCE</p>
+      </div>
+    </section>
+
+    <section class="section" id="overview">
+      <div class="section-heading"><span>01 — OVERVIEW</span><h2>One portfolio.<br><em>One clear story.</em></h2></div>
+      <div class="overview-grid">
+        <div class="body-copy"><p class="lead">The portfolio presents a designer who also builds for the web, bringing interface design and front-end development together in one digital experience.</p><p>The original website uses a dark navy canvas, cool blue accents, generous spacing and restrained motion. This case study documents those existing choices rather than introducing a new visual identity.</p></div>
+        <div class="fact-panel"><div><small>ROLE</small><b>UI/UX Designer & Frontend Developer</b></div><div><small>PRIMARY GOAL</small><b>Showcase skills, projects and experience</b></div><div><small>CONTENT SECTIONS</small><b>About · Skills · Projects · Experience · Contact</b></div></div>
+      </div>
+    </section>
+
+    <section class="section" id="design">
+      <div class="section-heading"><span>02 — DESIGN DIRECTION</span><h2>Quiet interface.<br><em>Confident details.</em></h2></div>
+      <div class="principles">
+        <article class="principle"><div class="principle-number">01</div><h3>Dark foundation</h3><p>A deep navy background reduces visual noise and lets the content and blue highlights stand out.</p></article>
+        <article class="principle"><div class="principle-number">02</div><h3>Blue as a signal</h3><p>Blue is reserved for names, labels, links and selected emphasis to create a consistent visual path.</p></article>
+        <article class="principle"><div class="principle-number">03</div><h3>Depth through layers</h3><p>Translucent panels, subtle borders, gradients and shadows create the glass-inspired 3D hero treatment.</p></article>
+        <article class="principle"><div class="principle-number">04</div><h3>Motion with purpose</h3><p>Scroll reveals, gentle floating elements and pointer tilt add feedback without changing the core layout.</p></article>
+      </div>
+    </section>
+
+    <section class="section" id="colors">
+      <div class="section-heading"><span>03 — COLOUR SYSTEM</span><h2>The original<br><em>blue-on-dark palette.</em></h2></div>
+      <p class="section-intro">These swatches are taken from the supplied portfolio CSS. The palette is documented here without changing its colours.</p>
+      <div class="palette-grid">
+        <article class="swatch"><div class="swatch-color" style="background:#080d15"></div><div class="swatch-info"><b>Deep Navy</b><code>#080D15</code><small>Page background</small><button class="copy-color" data-color="#080d15">Copy HEX</button></div></article>
+        <article class="swatch"><div class="swatch-color" style="background:#05070c"></div><div class="swatch-info"><b>Near Black</b><code>#05070C</code><small>Dark surfaces / gradients</small><button class="copy-color" data-color="#05070c">Copy HEX</button></div></article>
+        <article class="swatch"><div class="swatch-color" style="background:#5b9cff"></div><div class="swatch-info"><b>Accent Blue</b><code>#5B9CFF</code><small>Logo accent</small><button class="copy-color" data-color="#5b9cff">Copy HEX</button></div></article>
+        <article class="swatch"><div class="swatch-color" style="background:#62a5ff"></div><div class="swatch-info"><b>Highlight Blue</b><code>#62A5FF</code><small>Headings, links, labels</small><button class="copy-color" data-color="#62a5ff">Copy HEX</button></div></article>
+        <article class="swatch"><div class="swatch-color" style="background:#8d95a5"></div><div class="swatch-info"><b>Muted Grey</b><code>#8D95A5</code><small>Supporting paragraphs</small><button class="copy-color" data-color="#8d95a5">Copy HEX</button></div></article>
+        <article class="swatch"><div class="swatch-color" style="background:#9ca3b2"></div><div class="swatch-info"><b>Cool Grey</b><code>#9CA3B2</code><small>Navigation and secondary text</small><button class="copy-color" data-color="#9ca3b2">Copy HEX</button></div></article>
+        <article class="swatch"><div class="swatch-color" style="background:#ffffff"></div><div class="swatch-info"><b>White</b><code>#FFFFFF</code><small>Primary text / contrast</small><button class="copy-color" data-color="#ffffff">Copy HEX</button></div></article>
+        <article class="swatch"><div class="swatch-color gradient-swatch"></div><div class="swatch-info"><b>Glass Blue</b><code>rgba(...)</code><small>Layered translucent gradients</small><span class="swatch-note">Blue + white transparency</span></div></article>
+      </div>
+      <div class="palette-note"><span class="note-icon">i</span><p><b>Colour usage:</b> the hex values above are directly present in the source CSS. The design also uses many semi-transparent blue and white RGBA values for glass effects, borders and shadows.</p></div>
+    </section>
+
+    <section class="section" id="process">
+      <div class="section-heading"><span>04 — BUILD PROCESS</span><h2>From structure<br><em>to interaction.</em></h2></div>
+      <div class="timeline">
+        <article><div class="timeline-marker">01</div><div><small>STRUCTURE</small><h3>HTML sections</h3><p>Semantic page areas organise the hero, about, skills, selected projects, experience and contact details.</p></div></article>
+        <article><div class="timeline-marker">02</div><div><small>VISUAL DESIGN</small><h3>CSS styling system</h3><p>Flexbox and CSS Grid arrange content. Spacing, rounded cards, gradients, borders and responsive type create the visual hierarchy.</p></div></article>
+        <article><div class="timeline-marker">03</div><div><small>INTERACTION</small><h3>JavaScript behaviour</h3><p>IntersectionObserver reveals content on scroll, pointer movement tilts the hero visual, and the mobile menu opens and closes.</p></div></article>
+        <article><div class="timeline-marker">04</div><div><small>POLISH</small><h3>Responsive and motion-aware</h3><p>The layout adapts for smaller screens, and the script respects the reduced-motion preference for the pointer-driven effect.</p></div></article>
+      </div>
+    </section>
+
+    <section class="section" id="stack">
+      <div class="section-heading"><span>05 — TOOLS & TECHNOLOGY</span><h2>Tools behind<br><em>the experience.</em></h2></div>
+      <div class="stack-grid">
+        <article class="stack-card"><div class="stack-icon html-icon"><img src="HTML.png" alt="" width="50px" height="50px" border="1"></div><h3>HTML5</h3><p>Page structure and semantic content.</p><span>STRUCTURE</span></article>
+        <article class="stack-card"><div class="stack-icon css-icon"><img src="CSS.png" alt="" width="50px" height="50px" border="1"></div><h3>CSS3</h3><p>Layout, responsive styling, gradients, transitions and 3D-like effects.</p><span>VISUAL DESIGN</span></article>
+        <article class="stack-card"><div class="stack-icon js-icon"><img src="JS.png" alt="" width="50px" height="50px" border="1"></div><h3>JavaScript</h3><p>Scroll reveal, pointer interaction and mobile navigation.</p><span>INTERACTION</span></article>
+        <article class="stack-card"><div class="stack-icon figma-icon"><img src="F.png" alt="" width="50px" height="50px" border="1"></div><h3>Figma</h3><p>Listed in the portfolio as a UI/UX and prototyping tool.</p><span>DESIGN TOOL</span></article>
+        <article class="stack-card"><div class="stack-icon ps-icon"><img src="Ps.png" alt="" width="50px" height="50px" border="1"></div><h3>Photoshop</h3><p>Listed for image and visual design work.</p><span>VISUAL ASSETS</span></article>
+        <article class="stack-card"><div class="stack-icon pinterest-icon"><img src="P.png" alt="" width="50px" height="50px" border="1"></div><h3>Pinterest</h3><p>Used for design inspiration and research.</p><span>INSPIRATION</span></article>
+      </div>
+      <p class="stack-disclaimer">The supplied source files confirm HTML, CSS and JavaScript implementation. Figma, Photoshop and After Effects appear in the portfolio’s skills list; the files do not prove which application was used to create each original design asset.</p>
+    </section>
+
+    <section class="section" id="summary">
+      <div class="section-heading"><span>06 — OUTCOME</span><h2>A consistent digital<br><em>portfolio experience.</em></h2></div>
+      <div class="outcome-grid"><div><h3>What the design achieves</h3><ul><li>Clear hierarchy for name, role and work</li><li>Reusable cards and consistent spacing</li><li>Recognisable blue accent across sections</li><li>Lightweight interactions using native web technologies</li></ul></div><div class="outcome-quote"><span>DESIGN SUMMARY</span><p>“A dark, modern portfolio that combines clear content structure with a restrained blue visual identity and subtle motion.”</p><a href="#top">Back to top ↑</a></div></div>
+    </section>
+  </main>
+  <footer><span>© 2026 Rinsha Fathima</span><span>PORTFOLIO CASE STUDY · HTML / CSS / JS</span></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="case-study.js"></script>
+</body>
+</html>
